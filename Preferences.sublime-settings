@@ -1,0 +1,32 @@
+{
+  "binary_file_patterns":
+  [
+    "dist/*",
+    "node_modules/*",
+    "dist.js",
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip"
+  ],
+  "close_sidebar_if_opened": false,
+  "color_scheme": "Packages/User/SublimeLinter/Agila Oceanic Next (SL).tmTheme",
+  "font_size": 17,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "tab_size": 2,
+  "theme": "Agila.sublime-theme",
+  "translate_tabs_to_spaces": true
+}

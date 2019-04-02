@@ -1,0 +1,26 @@
+{
+  ///////////////////////////////
+  // Emmet customization
+  // Each section has the same meaning as the same-named JSON file 
+  // described here:
+  // http://docs.emmet.io/customization/
+  ///////////////////////////////
+
+
+  // Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
+  "snippets": {
+    // "html": {
+    //  "abbreviations": {
+    //    "example": "<div class='example' title='Custom element example'>"
+    //  }
+    // }
+  },
+
+  // Output profiles for syntaxes
+  // http://docs.emmet.io/customization/syntax-profiles/
+  "syntaxProfiles": {
+    "jsx": {
+         "attr_quotes": "double"
+     }
+  }
+}

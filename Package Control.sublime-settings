@@ -1,0 +1,24 @@
+{
+  "bootstrapped": true,
+  "in_process_packages":
+  [
+  ],
+  "installed_packages":
+  [
+    "Agila Theme",
+    "AppendComma",
+    "AppendSemiColon",
+    "Babel",
+    "Console Wrap",
+    "EditorConfig",
+    "Emmet",
+    "Git",
+    "JsPrettier",
+    "LESS",
+    "Open Finder",
+    "Package Control",
+    "SideBarEnhancements",
+    "SublimeLinter",
+    "SublimeLinter-eslint"
+  ]
+}

@@ -19,7 +19,7 @@
     "*.zip"
   ],
   "close_sidebar_if_opened": false,
-  "color_scheme": "Packages/User/SublimeLinter/Agila Oceanic Next (SL).tmTheme",
+  "color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
   "font_size": 17,
   "hot_exit": false,
   "ignored_packages":

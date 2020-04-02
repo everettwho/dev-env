@@ -1,6 +1,6 @@
-link sublime command:
+- link sublime command:
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
-iterm2 w/ powershell and color themes:
+- iterm2 w/ powershell and color themes:
 https://gist.github.com/kevin-smets/8568070
 

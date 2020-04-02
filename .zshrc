@@ -83,8 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias runserv='cdmynw; npm run start-dev'
-alias runclient='cdmynw; npm run dev'
 alias arggh='npm run lint'
 alias argghh='npm run test'
 
@@ -106,6 +104,7 @@ alias grha='git reset HEAD .'
 alias undocomm='git reset --soft HEAD~1'
 alias gb='gc -B'
 alias gmm='git merge master'
+alias gmc='git merge --continue'
 
 alias yi='yarn install --pure-lockfile'
 alias yicf='yarn install --check-files'
@@ -141,3 +140,18 @@ export EDITOR='subl'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+function cookbook() {
+  NPM_ROOT=$(npm root -g) && node $NPM_ROOT/@dydxprotocol/cookbook/build/index.js "$@"
+}
+
+function deploysolo() {
+  cookbook deploy solo-web "$@" production
+}
+
+function https_certs() {
+   sudo openssl genrsa -out ~/.localhost-ssl/localhost.key 2048;
+   sudo openssl req -new -x509 -key ~/.localhost-ssl/localhost.key -out ~/.localhost-ssl/localhost.crt -days 3650 -subj /CN=localhost;
+   sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/.localhost-ssl/localhost.crt;
+}

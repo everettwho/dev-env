@@ -9,15 +9,17 @@
     "AppendSemiColon",
     "Babel",
     "Console Wrap",
-    "EditorConfig",
     "Emmet",
     "Git",
     "JsPrettier",
-    "LESS",
-    "Open Finder",
+    "Naomi",
     "Package Control",
+    "SCSS",
     "SideBarEnhancements",
+    "SingleTrailingNewLine",
     "SublimeLinter",
-    "SublimeLinter-eslint"
+    "SublimeLinter-eslint",
+    "Syntax Highlighting for Sass",
+    "Text Pastry"
   ]
 }
